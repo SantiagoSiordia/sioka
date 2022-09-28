@@ -19,11 +19,10 @@ function Navbar() {
                 </div>
             </BrowserView>
             <ul className="nav-menu">
-                <Link to='home' smooth={true} duration={500} ><li>Home</li></Link>
-                <Link to='destinations' smooth={true} duration={500} ><li>Destinations</li></Link>
-                <Link to='carousel' smooth={true} duration={500} ><li>Travel</li></Link>
-                <Link to='search' smooth={true} duration={500} ><li>Book</li></Link>
-                <Link to='views' smooth={true} duration={500} ><li>Views</li></Link>
+                <Link to='home' smooth={true} duration={500} ><li>Inicio</li></Link>
+                <Link to='destinations' smooth={true} duration={500} ><li>Destinos</li></Link>
+                <Link to='carousel' smooth={true} duration={500} ><li>¡Viaja!</li></Link>
+                <Link to='views' smooth={true} duration={500} ><li>Vistas</li></Link>
             </ul>
             <div className="hamburger" onClick={handleNav}>
                 {!nav ? (<HiOutlineMenuAlt4 className='icon' />) : (<AiOutlineClose style={{ color: '#000' }} className='icon' />)}
