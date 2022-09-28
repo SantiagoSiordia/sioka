@@ -1,11 +1,11 @@
 import React from 'react'
 import './DestinationsStyles.css'
 
-import BoraBora from '../../assets/borabora.jpg'
-import BoraBora2 from '../../assets/borabora2.jpg'
-import KeyWest from '../../assets/keywest.jpg'
-import Maldives from '../../assets/maldives.jpg'
-import Maldives2 from '../../assets/maldives2.jpg'
+import Cabos from '../../assets/cabos.jpeg'
+import Cancun from '../../assets/cancun.jpeg'
+import Chiapas from '../../assets/chiapas.webp'
+import IslaMujeres from '../../assets/isla-mujeres.png'
+import PuertoVallarta from '../../assets/puerto-vallarta.jpeg'
 
 function Destinations() {
     return (
@@ -14,11 +14,11 @@ function Destinations() {
                 <h1>All-Inclusive Resorts</h1>
                 <p>En las mejores playas de méxico</p>
                 <div className="img-container">
-                    <img className='span-3 image-grid-row-2' src={BoraBora} alt="/"/>
-                    <img src={BoraBora2} alt="/"/>
-                    <img src={Maldives} alt="/"/>
-                    <img src={Maldives2} alt="/"/>
-                    <img src={KeyWest} alt="/"/>
+                    <img className='span-3 image-grid-row-2' src={PuertoVallarta} alt="/"/>
+                    <img src={Cancun} alt="/cancun"/>
+                    <img src={Chiapas} alt="/chiapas"/>
+                    <img src={IslaMujeres} alt="/isla-mujeres"/>
+                    <img src={Cabos} alt="/cabos"/>
                 </div>
             </div>
         </div>
