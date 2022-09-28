@@ -12,5 +12,9 @@
     display: none;
 }
 
-
-
+.control-dots {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    flex-direction: row;
+}
