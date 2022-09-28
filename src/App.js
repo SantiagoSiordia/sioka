@@ -1,10 +1,9 @@
-import React from 'react'
+import React from 'react';
 import ImgCarousel from './components/carousel/ImgCarousel';
-import Destinations from './components/destinations/Destinations'
+import Destinations from './components/destinations/Destinations';
 import Footer from './components/footer/Footer';
-import Hero from './components/hero/Hero'
-import Navbar from './components/navbar/Navbar'
-import Search from './components/search/Search';
+import Hero from './components/hero/Hero';
+import Navbar from './components/navbar/Navbar';
 import Selects from './components/selects/Selects';
 
 function App() {
@@ -13,7 +12,6 @@ function App() {
       <Navbar />
       <Hero />
       <Destinations />
-      <Search />
       <Selects />
       <ImgCarousel />
       <Footer />

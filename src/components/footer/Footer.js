@@ -20,21 +20,14 @@ function Footer() {
                 <div className="bottom">
                     <div className="left">
                         <ul>
-                            <li>About</li>
-                            <li>Partnerships</li>
-                            <li>Careers</li>
-                            <li>Newsroom</li>
-                            <li>Advertising</li>
+                            <li>Acerca de</li>
+                            <li>Privacidad</li>
                         </ul>
                     </div>
                     <div className="right">
                         <ul>
-                            <li>Contact</li>
-                            <li>Terms</li>
-                            <li>Policy</li>
-                            <li>Privacy</li>
-                            <li>Pricing</li>
-                            <li>Contact</li>
+                            <li>Contacto</li>
+                            <li>Términos y condiciones</li>
                         </ul>
                     </div>
                 </div>
