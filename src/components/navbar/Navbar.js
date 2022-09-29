@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { BrowserView, MobileView } from 'react-device-detect'
 import { AiOutlineClose } from 'react-icons/ai'
-import { FaFacebook, FaInstagram, FaPinterest, FaTwitter, FaYoutube } from 'react-icons/fa'
+import { FaFacebook, FaInstagram } from 'react-icons/fa'
 import { HiOutlineMenuAlt4 } from 'react-icons/hi'
 import { Link } from 'react-scroll'
 
@@ -49,9 +49,6 @@ function Navbar() {
                     <div className="social-icons">
                         <FaFacebook className='icon' />
                         <FaInstagram className='icon' />
-                        <FaTwitter className='icon' />
-                        <FaPinterest className='icon' />
-                        <FaYoutube className='icon' />
                     </div>
                 </div>
             </div>

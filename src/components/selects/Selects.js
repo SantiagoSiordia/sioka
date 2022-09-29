@@ -7,7 +7,6 @@ import IslaMujeres from '../../assets/isla-mujeres.png'
 
 import SelectsImg from '../SelectsImg/SelectsImg'
 
-
 function Selects() {
     return (
         <div name='views' className='selects'>
